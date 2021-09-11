@@ -3,11 +3,13 @@ import { useParams } from 'react-router-dom'
 import { Flex, Stack, Text } from '@chakra-ui/layout'
 
 import Info from '../Components/Registration/Info'
+import Consent from '../Components/Registration/Consent'
 
 export default function Registration() {
   const { step } = useParams()
   const formComponents = [
-    <Info />
+    <Info />,
+    <Consent />
   ]
   return (
     <Stack p='40px 96px'>
