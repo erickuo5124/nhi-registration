@@ -1,13 +1,11 @@
 import React from 'react'
 import { Flex, Text } from '@chakra-ui/react'
 
-import Navbar from '../Components/Navbar'
-import Info from '../Components/Info'
+import Info from '../Components/Home/Info'
 
 export default function Home() {
   return (
-    <Flex w='100vw' direction='column' p='40px 96px'>
-      <Navbar />
+    <Flex w='100vw' direction='column' p='0 96px' pb='40px'>
       <Text
         m='30px 0'
         color="primary.4"
