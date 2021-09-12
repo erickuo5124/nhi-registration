@@ -56,7 +56,7 @@ export default function Info() {
       <Flex w='40%' justify='center'>
         <CustomButton onClick={() => history.push('/')}>回首頁</CustomButton>
         <Flex w='40px' />
-        <CustomButton onClick={() => history.push('./1')}>確定</CustomButton>
+        <CustomButton onClick={() => history.push('/registration/1')}>確定</CustomButton>
       </Flex>
     </Flex>
   )

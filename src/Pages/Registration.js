@@ -4,9 +4,11 @@ import { Flex, Stack, Text } from '@chakra-ui/layout'
 
 import Info from '../Components/Registration/Info'
 import Consent from '../Components/Registration/Consent'
+import TimeLine from '../Components/Registration/TimeLine'
 
 export default function Registration() {
   const { step } = useParams()
+  const intStep = parseInt(step)
   const formComponents = [
     <Info />,
     <Consent />
@@ -22,7 +24,8 @@ export default function Registration() {
           註冊健保卡網路服務系統
         </Text>
       </Flex>
-      {formComponents[step]}
+      {intStep - 1 > 0 && <TimeLine step={intStep - 1} />}
+      {formComponents[intStep]}
     </Stack>
   )
 }
