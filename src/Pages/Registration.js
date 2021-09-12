@@ -5,16 +5,18 @@ import { Flex, Stack, Text } from '@chakra-ui/layout'
 import Info from '../Components/Registration/Info'
 import Consent from '../Components/Registration/Consent'
 import TimeLine from '../Components/Registration/TimeLine'
+import Install from '../Components/Registration/Install'
 
 export default function Registration() {
   const { step } = useParams()
   const intStep = parseInt(step)
   const formComponents = [
     <Info />,
-    <Consent />
+    <Consent />,
+    <Install />
   ]
   return (
-    <Stack p='40px 96px'>
+    <Stack p='40px 176px'>
       <Flex w='100%' justify='center' mb='30px'>
         <Text
           color='primary.4'
