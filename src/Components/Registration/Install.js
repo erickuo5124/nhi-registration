@@ -1,9 +1,10 @@
-import { Stack, Tabs, TabList, Tab, TabPanel, TabPanels, Flex, Text, Button } from '@chakra-ui/react'
+import { Tabs, TabList, Tab, TabPanel, TabPanels, Flex, Text } from '@chakra-ui/react'
 import React from 'react'
 import styled from 'styled-components'
 import { WarningIcon } from '@chakra-ui/icons'
 import { CustomButton } from '../../Styles/Custom'
 import { useHistory } from 'react-router'
+import { DownloadButton } from '../../Styles/Custom'
 
 export default function Install() {
   const history = useHistory()
@@ -154,17 +155,4 @@ const CustomTab = styled(Tab)`
   padding: 10px 0;
   border-radius: 15px 15px 0 0;
   font-weight: bold;
-`
-
-const DownloadButton = styled(Button)`
-  color: white;
-  background-color: #1E4E79;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  width: 150px;
-  padding: 10px 0;
-  :hover{
-    background-color: #1E4E79;
-  }
 `

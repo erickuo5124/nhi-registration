@@ -13,3 +13,18 @@ export const CustomButton = styled(Button)`
     background-color: #B2CFFF;
   }
 `
+
+export const DownloadButton = styled(Button)`
+  font-size: 14px;
+  font-weight: bold; 
+  color: white;
+  background-color: #1E4E79;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 150px;
+  padding: 10px 0;
+  :hover{
+    background-color: #1E4E79;
+  }
+`
