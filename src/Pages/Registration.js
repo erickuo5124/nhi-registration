@@ -9,6 +9,8 @@ import Install from '../Components/Registration/Install'
 import NHICard from '../Components/Registration/NHICard'
 import BasicInfo from '../Components/Registration/BasicInfo'
 import PasswdInfo from '../Components/Registration/PasswdInfo'
+import Confirm from '../Components/Registration/Confirm'
+import Finish from '../Components/Registration/Finish'
 
 export default function Registration() {
   const { step } = useParams()
@@ -19,7 +21,9 @@ export default function Registration() {
     <Install />,
     <NHICard />,
     <BasicInfo />,
-    <PasswdInfo />
+    <PasswdInfo />,
+    <Confirm />,
+    <Finish />
   ]
   return (
     <Stack p='40px 176px'>

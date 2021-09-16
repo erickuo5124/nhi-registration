@@ -104,7 +104,7 @@ export default function PasswdInfo() {
       <Flex w='40%' justify='center' mt='20px'>
         <CustomButton onClick={() => history.goBack()}>上一步</CustomButton>
         <Flex w='40px' />
-        <CustomButton onClick={() => history.push('/registration/5')}>下一步</CustomButton>
+        <CustomButton onClick={() => history.push('/registration/6')}>下一步</CustomButton>
       </Flex>
     </Flex>
   )
