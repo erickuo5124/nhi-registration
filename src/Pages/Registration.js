@@ -8,6 +8,7 @@ import TimeLine from '../Components/Registration/TimeLine'
 import Install from '../Components/Registration/Install'
 import NHICard from '../Components/Registration/NHICard'
 import BasicInfo from '../Components/Registration/BasicInfo'
+import PasswdInfo from '../Components/Registration/PasswdInfo'
 
 export default function Registration() {
   const { step } = useParams()
@@ -17,7 +18,8 @@ export default function Registration() {
     <Consent />,
     <Install />,
     <NHICard />,
-    <BasicInfo />
+    <BasicInfo />,
+    <PasswdInfo />
   ]
   return (
     <Stack p='40px 176px'>

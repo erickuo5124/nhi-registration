@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/button";
+import { Button, Input } from "@chakra-ui/react";
 import styled from "styled-components";
 
 export const CustomButton = styled(Button)`
@@ -26,5 +26,16 @@ export const DownloadButton = styled(Button)`
   padding: 10px 0;
   :hover{
     background-color: #1E4E79;
+  }
+`
+
+export const CustomInput = styled(Input)`
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  margin: 0;
+  border-color: #c4c4c4;
+  :placeholder{
+    color: #c4c4c4;
   }
 `
