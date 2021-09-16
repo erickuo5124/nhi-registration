@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.js": "/static/js/main.b122a25f.chunk.js",
-    "main.js.map": "/static/js/main.b122a25f.chunk.js.map",
+    "main.js": "/static/js/main.88cca77a.chunk.js",
+    "main.js.map": "/static/js/main.88cca77a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.40c1945c.js",
     "runtime-main.js.map": "/static/js/runtime-main.40c1945c.js.map",
-    "static/js/2.61e85a94.chunk.js": "/static/js/2.61e85a94.chunk.js",
-    "static/js/2.61e85a94.chunk.js.map": "/static/js/2.61e85a94.chunk.js.map",
+    "static/js/2.8f17f39e.chunk.js": "/static/js/2.8f17f39e.chunk.js",
+    "static/js/2.8f17f39e.chunk.js.map": "/static/js/2.8f17f39e.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.61e85a94.chunk.js.LICENSE.txt": "/static/js/2.61e85a94.chunk.js.LICENSE.txt",
+    "static/js/2.8f17f39e.chunk.js.LICENSE.txt": "/static/js/2.8f17f39e.chunk.js.LICENSE.txt",
     "static/media/FilledNHICard.2097885d.svg": "/static/media/FilledNHICard.2097885d.svg",
-    "static/media/NHICard.4e913d8b.svg": "/static/media/NHICard.4e913d8b.svg"
+    "static/media/NHICard.4e913d8b.svg": "/static/media/NHICard.4e913d8b.svg",
+    "static/media/book.75cf5981.svg": "/static/media/book.75cf5981.svg",
+    "static/media/edit.c56890eb.svg": "/static/media/edit.c56890eb.svg",
+    "static/media/lock.cfe4f063.svg": "/static/media/lock.cfe4f063.svg",
+    "static/media/management.bbb9f61c.svg": "/static/media/management.bbb9f61c.svg",
+    "static/media/person.adbb02db.svg": "/static/media/person.adbb02db.svg",
+    "static/media/phone.08000965.svg": "/static/media/phone.08000965.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.40c1945c.js",
-    "static/js/2.61e85a94.chunk.js",
-    "static/js/main.b122a25f.chunk.js"
+    "static/js/2.8f17f39e.chunk.js",
+    "static/js/main.88cca77a.chunk.js"
   ]
 }
