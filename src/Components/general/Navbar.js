@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Image, Text, Link } from '@chakra-ui/react'
+import { Flex, Image, Text } from '@chakra-ui/react'
 import { CustomButton } from '../../Styles/Custom'
 import { useLocation, useHistory } from 'react-router-dom'
 
@@ -33,12 +33,7 @@ export default function Navbar() {
       </Flex>
       {location.pathname === '/' && <Flex>
         <CustomButton onClick={() => history.push('./registration')}>註冊</CustomButton>
-        <Link
-          href={'./login'}
-          _hover={{ textDecor: 'none' }}
-        >
-          <CustomButton ml='20px' onClick={() => history.push('./login')}>登入</CustomButton>
-        </Link>
+        <CustomButton ml='20px' onClick={() => history.push('./login')}>登入</CustomButton>
       </Flex>
       }
     </Flex>

@@ -29,9 +29,10 @@ function App() {
           <Route path="/main">
             <Main />
           </Route>
-          <Route path="/login">
+          <Route path="/login/:step">
             <Login />
           </Route>
+          <Route path="/login"><Redirect to="/login/0" /></Route>
         </Switch>
       </Router>
     </ChakraProvider>
