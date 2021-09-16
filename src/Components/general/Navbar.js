@@ -1,9 +1,10 @@
 import React from 'react'
-import { Flex, Image, Text } from '@chakra-ui/react'
+import { Flex, Image, Text, Button } from '@chakra-ui/react'
 import { CustomButton } from '../../Styles/Custom'
 import { useLocation, useHistory } from 'react-router-dom'
 
 import icon from '../../Images/Website Icon.png'
+import styled from 'styled-components'
 
 export default function Navbar() {
   const location = useLocation();
@@ -36,6 +37,22 @@ export default function Navbar() {
         <CustomButton ml='20px' onClick={() => history.push('./login')}>登入</CustomButton>
       </Flex>
       }
+      {location.pathname === '/main' && <Flex>
+        <LogoutButton
+          mr='80px'
+          onClick={() => history.push('/')}
+        >
+          登出
+        </LogoutButton>
+      </Flex>
+      }
     </Flex>
   )
 }
+
+const LogoutButton = styled(Button)`
+  width: 100px;
+  height: 40px;
+  color: #005BAC;
+  background-color: #B2CFFF;
+`

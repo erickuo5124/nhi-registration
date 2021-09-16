@@ -12,6 +12,7 @@ import Registration from "./Pages/Registration";
 import Main from "./Pages/Main";
 import theme from "./Styles/theme";
 import Login from "./Pages/Login";
+import Certification from "./Pages/Certification";
 
 function App() {
   return (
@@ -22,17 +23,12 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/registration/:step">
-            <Registration />
-          </Route>
+          <Route path="/registration/:step" component={Registration} />
           <Route path="/registration"><Redirect to="/registration/0" /></Route>
-          <Route path="/main">
-            <Main />
-          </Route>
-          <Route path="/login/:step">
-            <Login />
-          </Route>
+          <Route path="/login/:step" component={Login} />
           <Route path="/login"><Redirect to="/login/0" /></Route>
+          <Route path="/main/certification" component={Certification} />
+          <Route path="/main" component={Main} />
         </Switch>
       </Router>
     </ChakraProvider>
